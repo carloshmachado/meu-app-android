@@ -61,10 +61,10 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         } catch (MalformedURLException e) {
-            //alert("Ocorreu um erro ao logar: " + e.getMessage());
+            alert("Ocorreu um erro ao logar: " + e.getMessage());
             return false;
         } catch (IOException e) {
-            //alert("Ocorreu um erro ao logar: " + e.getMessage());
+            alert("Ocorreu um erro ao logar: " + e.getMessage());
             return false;
         }
     }
